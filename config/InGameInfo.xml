@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="botright">
+        <line>
+            <str>$7Biome: $8{biome}$7</str>
+        </line>
+        <line>
+            <str>$7Light: </str>
+            <max>
+                <var>light</var>
+                <num>7.5</num>
+                <str>$6</str>
+                <str>$c</str>
+            </max>
+            <var>light</var>
+            <str>$r</str>
+        </line>
+        <line>
+            <str>$7Feet Level: $f{yi}$7</str>
+        </line>
+    </lines>
+</config>
