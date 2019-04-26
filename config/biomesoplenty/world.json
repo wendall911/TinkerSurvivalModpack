@@ -1,6 +1,7 @@
 {
     "amplitude": 1.4,
-    "biomeSize": 2,
-    "OceanFiller": true,
-    "generateBopOre": true
+    "biomeSize": "small",
+    "generatePoisonIvy": true,
+    "rainScheme": "random",
+    "tempScheme": "medium_zones"
 }
