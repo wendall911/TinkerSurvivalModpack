@@ -15,7 +15,7 @@
   "BACKGROUND_END_X": 440,
   "BACKGROUND_END_Y": 240,
   "defaultPage": 0,
-  "isLocked": false,
+  "isLocked": true,
   "forgetPageOnClose": false,
   "book": [
     {
