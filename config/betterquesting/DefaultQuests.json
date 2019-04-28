@@ -272,12 +272,6 @@
               "Damage:3": 0
             }
           }
-        },
-        "1:10": {
-          "amount:3": 3,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 1
         }
       }
     },
@@ -395,12 +389,6 @@
               "Damage:3": 0
             }
           }
-        },
-        "1:10": {
-          "amount:3": 3,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 1
         }
       }
     },
@@ -458,7 +446,7 @@
     "8:10": {
       "questID:3": 8,
       "preRequisites:11": [
-        7
+        6
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -490,23 +478,6 @@
           "partialMatch:1": 0,
           "allowSmelt:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "tinkersurvival:flint_shard",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
-            }
-          },
-          "taskID:8": "bq_standard:crafting"
-        },
-        "1:10": {
-          "partialMatch:1": 0,
-          "allowSmelt:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 1,
           "allowCraft:1": 1,
           "allowAnvil:1": 0,
@@ -520,7 +491,7 @@
           },
           "taskID:8": "bq_standard:crafting"
         },
-        "2:10": {
+        "1:10": {
           "partialMatch:1": 0,
           "allowSmelt:1": 0,
           "ignoreNBT:1": 0,
@@ -550,12 +521,6 @@
               "Damage:3": 0
             }
           }
-        },
-        "1:10": {
-          "amount:3": 3,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 1
         }
       }
     },
@@ -733,12 +698,6 @@
               "Damage:3": 0
             }
           }
-        },
-        "1:10": {
-          "amount:3": 3,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 1
         }
       }
     },
@@ -1467,12 +1426,6 @@
               "Damage:3": 0
             }
           }
-        },
-        "1:10": {
-          "amount:3": 3,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 1
         }
       }
     },
@@ -1543,12 +1496,6 @@
               "Damage:3": 0
             }
           }
-        },
-        "1:10": {
-          "amount:3": 3,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 1
         }
       }
     },
@@ -1619,12 +1566,6 @@
               "Damage:3": 0
             }
           }
-        },
-        "1:10": {
-          "amount:3": 3,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 1
         }
       }
     }
