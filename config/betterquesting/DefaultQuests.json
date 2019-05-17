@@ -1640,7 +1640,14 @@
       "lineID:3": 0,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Crude Tools",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "This is your primary quest! Complete this quest to have any chance of survival. Three hearts will be awarded once you\u0027ve completed all of the tasks. Good luck!\n\nRewards: 3 Heart Containers"
@@ -1689,7 +1696,14 @@
       "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Tinkers\u0027 Construct",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "Get started with Tinkers\u0027 Construct. The book is an essential guide. Follow the guide and you\u0027ll be making your own custom tools!\n\nRewards: Materials and You Book, Clay Lava Bucket, 3 Heart Containers"
@@ -1710,7 +1724,14 @@
       "lineID:3": 2,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Constructs\u0027 Armory",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "Get a copy of the Armory Addendum.\n\nReward: Copy of Armory Addendum"
@@ -1731,7 +1752,14 @@
       "lineID:3": 3,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Set Spawn",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "Craft a bed to set your spawn point.\n\nReward: 1 Heart Container"
@@ -1752,7 +1780,14 @@
       "lineID:3": 4,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Immersive Engineering",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "Get a copy of the Engineer\u0027s Manual. This book also gives information for Immersive Petroleum in the Oil Processing section of the manual.\n\nReward: Copy of the Engineer\u0027s Manual"
@@ -1773,7 +1808,14 @@
       "lineID:3": 5,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Animania",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "Get Animania Manual!\n\nReward: Copy of the Animania Manual"
@@ -1822,7 +1864,14 @@
       "lineID:3": 6,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Specialty Seeds",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "There are several specialty seeds to be found by breaking grass. These seeds result in a number of very useful crops for obtaining difficult to obtain items.\n\nRewards: 5 Ashenwheat Cookies, 16 Bonemeal, 10 Gunpowder, 5 Scintillawheat Cookies"
