@@ -1,0 +1,172 @@
+{
+  "bottomright": [
+    [
+      {
+        "str": "{grey}Biome: {darkgrey}{biome}{grey}"
+      }
+    ],
+    [
+      {
+        "str": "{grey}Light: "
+      },
+      {
+        "max": [
+          {
+            "var": "light"
+          },
+          {
+            "num": 7.5
+          },
+          {
+            "var": "gold"
+          },
+          {
+            "var": "red"
+          }
+        ]
+      },
+      {
+        "var": "light"
+      },
+      {
+        "var": "reset"
+      }
+    ],
+    [
+      {
+        "min": [
+        ]
+      },
+      {
+        "str": "{tanenvtempf}{reset} °F"
+      },
+      {
+        "iftruthy": [
+          {
+            "var": "tanarmortempf"
+          },
+          {
+            "str": " ({yellow}"
+          }
+        ]
+      },
+      {
+        "iftruthy": [
+            {
+                "var": "tanarmortempf"
+            },
+            {
+              "add": [
+                {
+                  "var": "tanenvtempf"
+                },
+                {
+                  "var": "tanarmortempf"
+                }
+              ]
+            }
+        ]
+      },
+      {
+        "iftruthy": [
+            {
+              "var": "tanarmortempf"
+            },
+            {
+                "str": " °F{reset})"
+            }
+        ]
+      }
+    ],
+    [
+      {
+        "ifcontains": [
+          {
+            "var": "currentseason"
+          },
+          {
+            "str": "Spring"
+          },
+          {
+            "var": "blue"
+          }
+        ]
+      },
+      {
+        "ifcontains": [
+          {
+            "var": "currentseason"
+          },
+          {
+            "str": "Summer"
+          },
+          {
+            "var": "yellow"
+          }
+        ]
+      },
+      {
+        "ifcontains": [
+          {
+            "var": "currentseason"
+          },
+          {
+            "str": "Autumn"
+          },
+          {
+            "var": "gold"
+          }
+        ]
+      },
+      {
+        "ifcontains": [
+          {
+            "var": "currentseason"
+          },
+          {
+            "str": "Winter"
+          },
+          {
+            "var": "cyan"
+          }
+        ]
+      },
+      {
+        "str": "{currentsubseason}"
+      }
+    ]
+  ],
+  "bottomcenter": [
+    [
+      {
+        "min": [
+          {
+            "var": "tanbodytemp"
+          },
+          {
+            "num": 7.0
+          },
+          {
+            "str": "{cyan}"
+          }
+        ]
+      },
+      {
+        "max": [
+          {
+            "var": "tanbodytemp"
+          },
+          {
+            "num": 18.0
+          },
+          {
+            "str": "{red}"
+          }
+        ]
+      },
+      {
+        "str": "SCALESMALLCENTER{tanbodytempf} °F"
+      }
+    ]
+  ]
+}
