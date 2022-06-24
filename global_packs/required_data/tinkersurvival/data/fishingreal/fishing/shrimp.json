@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "minecraft:sand"
+  },
+  "result": {
+    "id": "sushigocrafting:shrimp"
+  }
+}

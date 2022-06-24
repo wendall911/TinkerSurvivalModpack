@@ -1,0 +1,18 @@
+#Show temperature debug info.
+debugEnabled = false
+#Use Fahrenheit, otherwise use Celcius.
+useFahrenheit = true
+#Position of debug info, one of: [TOPLEFT, TOPRIGHT, BOTTOMLEFT, BOTTOMRIGHT]
+position = "TOPRIGHT"
+#X offset
+#Range: -100 ~ 100
+offsetX = 3
+#Y offset
+#Range: -100 ~ 100
+offsetY = 3
+#The size of the text info (multiplier)
+#Range: 0.5 ~ 2.0
+scale = 0.5
+#Temperature color range (Format (cold->hot): #3ab3da->#f9801d)
+temperatureColorRange = "#3ab3da->#f9801d"
+

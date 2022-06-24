@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "aquaculture:driftwood"
+    },
+    {
+      "item": "tinkersurvival:crude_saw"
+    }
+  ],
+  "result": {
+    "item": "minecraft:oak_planks",
+    "count": 2
+  }
+}

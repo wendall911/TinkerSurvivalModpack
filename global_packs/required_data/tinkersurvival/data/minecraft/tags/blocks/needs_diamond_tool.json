@@ -1,0 +1,19 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:deepslate_redstone_ore",
+    "tconstruct:cobalt_ore",
+    "tconstruct:cobalt_platform",
+    "tconstruct:raw_cobalt_block",
+    "tconstruct:cobalt_block",
+    "immersiveengineering:deepslate_ore_uranium",
+    "minecraft:netherite_block",
+    "minecraft:ancient_debris",
+    "tconstruct:manyullyn_block",
+    "tconstruct:hepatizon_block",
+    "tconstruct:soulsteel_block"
+  ]
+}

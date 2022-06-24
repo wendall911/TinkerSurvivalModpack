@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 10.0,
+      "bonus_rolls": 10.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+			{
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "include": ["OCEAN", "BEACH"]
+              }
+            }
+          ],
+          "weight": 100,
+          "name": "minecraft:dirt"
+        },
+		{
+          "type": "minecraft:item",
+          "conditions": [
+			{
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "include": ["OCEAN", "BEACH"]
+              }
+            }
+          ],
+          "weight": 100,
+          "name": "minecraft:sand"
+        }
+      ]
+    }
+  ]
+}

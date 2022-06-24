@@ -1,0 +1,35 @@
+#Range: 1 ~ 26
+"Charm Slots" = 2
+
+["CHARMS CONFIG [NOT FUNCTIONAL DON'T USE]"]
+	allowSaturationCharm = true
+	allowSpeedCharm = true
+	allowSpeed2Charm = true
+	allowHasteCharm = true
+	allowHaste2Charm = true
+	allowStrengthCharm = true
+	allowStrength2Charm = true
+	allowAbsorptionCharm = true
+	allowAbsorption2Charm = true
+	allowGlowingCharm = true
+	allowDolphinCharm = true
+	allowBlindnessCharm = true
+	allowNauseaCharm = true
+	allowInvisCharm = true
+	allowLuckCharm = true
+	allowLevitationCharm = true
+	allowSlownessCharm = true
+	allowSlowFallingCharm = true
+	allowFireResistanceCharm = true
+	allowWaterBreathingCharm = true
+	allowMiningFatigueCharm = true
+	allowNightVisionCharm = true
+	allowResistanceCharm = true
+	allowResistance2Charm = true
+	allowJumpCharm = true
+	allowJump2Charm = true
+	allowSpiderCharm = true
+	allowFallCharm = true
+	allowBounceCharm = true
+	allowSteelToedCharm = true
+

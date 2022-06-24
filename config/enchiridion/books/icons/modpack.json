@@ -1,6 +1,0 @@
-{
-  "parent": "enchiridion:item/book",
-  "textures": {
-    "layer0": "enchiridion:items/fancy"
-  }
-}

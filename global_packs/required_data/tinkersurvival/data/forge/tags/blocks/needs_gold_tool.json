@@ -1,0 +1,33 @@
+{
+  "replace": true,
+  "values": [
+    "immersiveengineering:ore_aluminum",
+    "immersiveengineering:raw_block_aluminum",
+    "immersiveengineering:storage_aluminum",
+    "minecraft:lapis_block",
+    "minecraft:lapis_ore",
+    "tconstruct:ichor_slime_dirt",
+    "tconstruct:ichor_earth_slime_grass",
+    "tconstruct:ichor_sky_slime_grass",
+    "tconstruct:earth_ichor_slime_grass",
+    "tconstruct:sky_ichor_slime_grass",
+    "tconstruct:ichor_ichor_slime_grass",
+    "tconstruct:blood_ichor_slime_grass",
+    "tconstruct:ichor_vanilla_slime_grass",
+    "tconstruct:bloodshroom_log",
+    "tconstruct:bloodshroom_wood",
+    "tconstruct:seared_duct",
+    "tconstruct:scorched_duct",
+    "tconstruct:tinkers_anvil",
+    "tconstruct:scorched_anvil",
+    "immersiveengineering:deepslate_ore_nickel",
+    "immersiveengineering:ore_lead",
+    "immersiveengineering:raw_block_lead",
+    "immersiveengineering:storage_lead",
+    "minecraft:iron_block",
+    "minecraft:raw_iron_block",
+    "minecraft:iron_ore",
+    "minecraft:deepslate_copper_ore",
+    "tconstruct:foundry_controller"
+  ]
+}

@@ -1,0 +1,36 @@
+#Enables the generation of rock piles on the surface.
+ENABLE_ROCK_GEN = true
+#RockGeneration frequency. (1 = low, 5 = all over)
+#Range: 1 ~ 5
+ROCK_GEN_FREQUENCY = 2
+#Chance for a successful flint knapping. (1.0 = 100%, 0.4 = 40%, etc.)
+#Range: 0.1 ~ 1.0
+FLINT_CHANCE = 0.6
+#Heal rate for bandages. Crude bandages are 50% less effective. (1.0 = 100%, 0.4 = 40%, etc.)
+#Range: 0.1 ~ 1.0
+HEAL_RATE = 0.14
+#Option to adjust slow down on wrong tool usage. (1.0 = 100%, 2.0 = 200%, etc.)
+#Range: 1.0 ~ 5.0
+SLOW_DOWN_MULTIPLIER = 1.0
+#List of mods that tools will always work for. All other mod tools will become wet noodles. Default: ["tconstruct", "tinkersurvival"]
+mods = ["tconstruct", "tinkersurvival", "botania", "consecration"]
+#List of individual tools that will always work. Format tooltype-modid:item Default: ["hammer-immersiveengineering:hammer", "wirecutter-immersiveengineering:wirecutter"]
+items = ["shovel-immersiveengineering:drill", "pickaxe-immersiveengineering:drill", "axe-immersiveengineering:buzzsaw", "pickaxe-immersiveengineering:buzzsaw", "weapon-immersiveengineering:revolver", "weapon-immersiveengineering:revolver", "hammer-immersiveengineering:hammer", "wirecutter-immersiveengineering:wirecutter", "shovel-tconstruct:excavator"]
+#Used to dump log info for Tinkers's Survival Modpack. Ignore.
+LOG_MODPACK_DATA = false
+#List of mods that have blocks that are generally decorative in nature and require no tool for harvesting blocks. Default: ["cfm", "furnish"]
+blockmods = ["cfm", "furnish", "comforts"]
+#Hunger penalty feature. If after dying, player is rewarded with reduced hunger levels.
+ENABLE_HUNGER_PENALTY = true
+#Hunger value after death in half shanks. (0 = Really? That's just cruel, 20 = No penalty.)
+#Range: 0 ~ 20
+HUNGER = 8
+#Saturation value after death. Range 0 to 20.
+#Range: 0 ~ 20
+SATURATION = 0
+#Health penalty feature. If after dying, player is rewarded with reduced health levels.
+ENABLE_HEALTH_PENALTY = true
+#Health value after death in half hearts.
+#Range: 0.5 ~ 100.0
+HEALTH = 6.0
+

@@ -1,0 +1,25 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/held"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "result": {
+    "name": "tconstruct:offhanded",
+    "level": 1
+  },
+  "max_level": 1
+}

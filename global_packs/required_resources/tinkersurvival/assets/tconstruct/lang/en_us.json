@@ -1,0 +1,8 @@
+{
+  "stat.tconstruct.harvest_tier.minecraft.wood": "Stone",
+  "stat.tconstruct.harvest_tier.minecraft.gold": "Copper",
+  "stat.tconstruct.harvest_tier.minecraft.stone": "Constantan",
+  "stat.tconstruct.harvest_tier.minecraft.iron": "Bronze",
+  "stat.tconstruct.harvest_tier.minecraft.diamond": "Steel",
+  "stat.tconstruct.harvest_tier.minecraft.netherite": "Netherite"
+}

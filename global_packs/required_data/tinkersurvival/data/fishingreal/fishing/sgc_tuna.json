@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "minecraft:dirt"
+  },
+  "result": {
+    "id": "sushigocrafting:tuna"
+  }
+}

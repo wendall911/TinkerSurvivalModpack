@@ -1,3 +1,3 @@
-val book = <enchiridion:book>.withTag({identifier:"modpack"});
+import mods.initialinventory.InvHandler;
 
-mods.initialinventory.InvHandler.addStartingItem(book);
+InvHandler.addStartingItem("modpack_book", <item:tinkersurvival:tinkers_survival_modpack>);

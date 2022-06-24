@@ -1,0 +1,472 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "botania:crystal_bow": [
+      1050,
+      0.0
+    ],
+    "botania:elementium_axe": [
+      946,
+      0.432
+    ],
+    "botania:elementium_sword": [
+      1084,
+      -0.672
+    ],
+    "botania:ender_dagger": [
+      1279,
+      -2.232
+    ],
+    "botania:livingwood_bow": [
+      1050,
+      0.0
+    ],
+    "botania:manasteel_axe": [
+      1072,
+      -0.576
+    ],
+    "botania:manasteel_sword": [
+      1210,
+      -1.68
+    ],
+    "botania:star_sword": [
+      568,
+      3.456
+    ],
+    "botania:terra_axe": [
+      418,
+      4.656
+    ],
+    "botania:terra_sword": [
+      568,
+      3.456
+    ],
+    "botania:thunder_sword": [
+      568,
+      3.456
+    ],
+    "minecraft:bow": [
+      1108,
+      0.0
+    ],
+    "minecraft:crossbow": [
+      1000,
+      0.0
+    ],
+    "minecraft:enchanted_book": [
+      1100,
+      0.0
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      1050,
+      0.0
+    ],
+    "minecraft:snowball": [
+      1400,
+      0.0
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      1050,
+      0.0
+    ],
+    "minecraft:tnt": [
+      800,
+      0.0
+    ],
+    "minecraft:trident": [
+      900,
+      0.0
+    ],
+    "tinkersurvival:crude_hatchet": [
+      1318,
+      -2.544
+    ],
+    "tinkersurvival:crude_knife": [
+      1409,
+      -3.272
+    ]
+  },
+  "OFFHAND": {
+    "bigbrain:buckler": [
+      1350,
+      0.0
+    ],
+    "minecraft:ender_pearl": [
+      1100,
+      0.0
+    ],
+    "minecraft:flint_and_steel": [
+      1200,
+      0.0
+    ],
+    "minecraft:lava_bucket": [
+      900,
+      0.0
+    ],
+    "minecraft:shield": [
+      1350,
+      0.0
+    ]
+  },
+  "FEET": {
+    "aquaculture:neptunium_boots": [
+      1,
+      11.768
+    ],
+    "biomemakeover:cladded_boots": [
+      944,
+      0.448
+    ],
+    "botania:elementium_boots": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_boots": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_boots": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_boots": [
+      1,
+      8.312
+    ],
+    "immersiveengineering:armor_faraday_feet": [
+      1329,
+      -2.632
+    ],
+    "immersiveengineering:armor_steel_feet": [
+      505,
+      3.96
+    ],
+    "minecraft:chainmail_boots": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_boots": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_boots": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_boots": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_boots": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_boots": [
+      361,
+      5.112
+    ],
+    "scuba_gear:scuba_boots": [
+      954,
+      0.368
+    ],
+    "tconstruct:plate_boots": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_boots": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_boots": [
+      1498,
+      -3.984
+    ]
+  },
+  "LEGS": {
+    "aquaculture:neptunium_leggings": [
+      1,
+      11.768
+    ],
+    "biomemakeover:cladded_leggings": [
+      944,
+      0.448
+    ],
+    "botania:elementium_leggings": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_leggings": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_leggings": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_leggings": [
+      1,
+      8.312
+    ],
+    "immersiveengineering:armor_faraday_legs": [
+      1329,
+      -2.632
+    ],
+    "immersiveengineering:armor_steel_legs": [
+      505,
+      3.96
+    ],
+    "minecraft:chainmail_leggings": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_leggings": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_leggings": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_leggings": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_leggings": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_leggings": [
+      361,
+      5.112
+    ],
+    "scuba_gear:scuba_leggings": [
+      954,
+      0.368
+    ],
+    "tconstruct:plate_leggings": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_leggings": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_leggings": [
+      1498,
+      -3.984
+    ]
+  },
+  "CHEST": {
+    "aquaculture:neptunium_chestplate": [
+      1,
+      11.768
+    ],
+    "betteranimalsplus:bear_cape_black": [
+      933,
+      0.536
+    ],
+    "betteranimalsplus:bear_cape_brown": [
+      933,
+      0.536
+    ],
+    "betteranimalsplus:bear_cape_kermode": [
+      933,
+      0.536
+    ],
+    "betteranimalsplus:wolf_cape_arctic": [
+      933,
+      0.536
+    ],
+    "betteranimalsplus:wolf_cape_black": [
+      933,
+      0.536
+    ],
+    "betteranimalsplus:wolf_cape_brown": [
+      933,
+      0.536
+    ],
+    "betteranimalsplus:wolf_cape_classic": [
+      933,
+      0.536
+    ],
+    "betteranimalsplus:wolf_cape_red": [
+      933,
+      0.536
+    ],
+    "betteranimalsplus:wolf_cape_timber": [
+      933,
+      0.536
+    ],
+    "biomemakeover:cladded_chestplate": [
+      944,
+      0.448
+    ],
+    "botania:elementium_chestplate": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_chestplate": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_chestplate": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_chestplate": [
+      1,
+      8.312
+    ],
+    "immersiveengineering:armor_faraday_chest": [
+      1329,
+      -2.632
+    ],
+    "immersiveengineering:armor_steel_chest": [
+      505,
+      3.96
+    ],
+    "minecraft:chainmail_chestplate": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_chestplate": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_chestplate": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_chestplate": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_chestplate": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_chestplate": [
+      361,
+      5.112
+    ],
+    "scuba_gear:scuba_chestplate": [
+      954,
+      0.368
+    ],
+    "tconstruct:plate_chestplate": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_chestplate": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_chestplate": [
+      1498,
+      -3.984
+    ]
+  },
+  "HEAD": {
+    "aquaculture:neptunium_helmet": [
+      1,
+      11.768
+    ],
+    "biomemakeover:cladded_helmet": [
+      944,
+      0.448
+    ],
+    "biomemakeover:cowboy_hat": [
+      1074,
+      -0.592
+    ],
+    "biomemakeover:witch_hat": [
+      1074,
+      -0.592
+    ],
+    "botania:elementium_helmet": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_helmet": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_helmet": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_helmet": [
+      1,
+      8.312
+    ],
+    "immersiveengineering:armor_faraday_head": [
+      1329,
+      -2.632
+    ],
+    "immersiveengineering:armor_steel_head": [
+      505,
+      3.96
+    ],
+    "minecraft:chainmail_helmet": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_helmet": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_helmet": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_helmet": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_helmet": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_helmet": [
+      361,
+      5.112
+    ],
+    "minecraft:turtle_helmet": [
+      865,
+      1.08
+    ],
+    "scuba_gear:scuba_helmet": [
+      954,
+      0.368
+    ],
+    "tconstruct:plate_helmet": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_helmet": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_helmet": [
+      1498,
+      -3.984
+    ],
+    "theoneprobe:diamond_helmet_probe": [
+      124,
+      7.008
+    ],
+    "theoneprobe:gold_helmet_probe": [
+      1077,
+      -0.616
+    ],
+    "theoneprobe:iron_helmet_probe": [
+      759,
+      1.928
+    ]
+  }
+}
