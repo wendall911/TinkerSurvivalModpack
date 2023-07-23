@@ -14,6 +14,10 @@
     "minecraft:ancient_debris",
     "tconstruct:manyullyn_block",
     "tconstruct:hepatizon_block",
-    "tconstruct:soulsteel_block"
+    "tconstruct:soulsteel_block",
+    "byg:raw_pendorite_block",
+    "byg:pendorite_block",
+    "byg:pendorite_ore",
+    "byg:raw_pendorite_block"
   ]
 }

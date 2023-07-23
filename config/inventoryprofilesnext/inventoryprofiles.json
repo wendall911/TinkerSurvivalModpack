@@ -2,28 +2,5 @@
     "ModSettings": {
         "enable_updates_check": false,
         "first_run": false
-    },
-    "GuiSettings": {
-        "continuous_crafting_saved_value": false
-    },
-    "AutoRefillSettings": {
-        "refill_armor": false,
-        "refill_before_tool_break": false,
-        "visual_durability_notification": false,
-        "audio_durability_notification": false,
-        "visual_replace_success_notification": false,
-        "audio_replace_success_notification": false,
-        "visual_replace_failed_notification": false,
-        "audio_replace_failed_notification": false
-    },
-    "Hotkeys": {
-        "open_config_menu": {
-            "main": {
-                "keys": "LEFT_CONTROL,C"
-            }
-        }
-    },
-    "Tweaks": {
-        "container_swipe_moving_items": false
     }
 }

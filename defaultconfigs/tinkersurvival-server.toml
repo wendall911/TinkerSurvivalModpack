@@ -1,8 +1,3 @@
-#Enables the generation of rock piles on the surface.
-ENABLE_ROCK_GEN = true
-#RockGeneration frequency. (1 = low, 5 = all over)
-#Range: 1 ~ 5
-ROCK_GEN_FREQUENCY = 2
 #Chance for a successful flint knapping. (1.0 = 100%, 0.4 = 40%, etc.)
 #Range: 0.1 ~ 1.0
 FLINT_CHANCE = 0.6
@@ -33,4 +28,15 @@ ENABLE_HEALTH_PENALTY = true
 #Health value after death in half hearts.
 #Range: 0.5 ~ 100.0
 HEALTH = 6.0
+#The amount of generic damage in half hearts a non-whitelisted tool, or bare hand should do. Default 0
+#Range: 0 ~ 4
+GENERIC_DAMAGE = 0
+#Enforce use of armor whitelist. All other armor will not be equipable.
+ENFORCE_WHITELIST_ARMOR = false
+#List of mods that armor will be equipable for. Must enable ENFORCE_WHITELIST_ARMOR to be effective. Default: ["immersiveengineering", "tconstruct"]
+armormods = ["immersiveengineering", "tconstruct"]
+#List of individual armor items that will always work. Format modid:item Default: ["tconstruct:piggybackpack"]
+armor = ["tconstruct:piggybackpack"]
+#List of tags when added to tools or armor will always work.["whitelist_tools"]
+tag = ["whitelist_tools"]
 

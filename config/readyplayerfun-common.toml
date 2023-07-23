@@ -1,3 +1,0 @@
-#Show status message on first player login after server unpaused.
-ENABLE_WELCOME_MESSAGE = true
-

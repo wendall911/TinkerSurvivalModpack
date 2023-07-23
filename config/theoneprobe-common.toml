@@ -54,4 +54,6 @@ dontSendNBT = []
 tooltypeTags = ["minecraft:mineable/axe=Axe", "minecraft:mineable/pickaxe=Pickaxe", "minecraft:mineable/shovel=Shovel", "minecraft:mineable/hoe=Hoe"]
 #A list of <tag>=<name> containing all harvestability tags with their associated name to display
 harvestabilityTags = ["forge:needs_wood_tool=Stone", "forge:needs_gold_tool=Copper", "minecraft:needs_stone_tool=Constantan", "minecraft:needs_iron_tool=Bronze", "minecraft:needs_diamond_tool=Steel", "forge:needs_netherite_tool=Netherite"]
+#A list of either <modid>:<entityid> to disable the tooltip for specific entities. Can also be a single <modid> to disable an entire mod. Or it can also be '*' to disable everything
+blacklistEntities = []
 

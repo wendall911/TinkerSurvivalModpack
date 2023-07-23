@@ -2,15 +2,15 @@
 "Charm Slots" = 2
 
 ["CHARMS CONFIG [NOT FUNCTIONAL DON'T USE]"]
-	allowSaturationCharm = true
+	allowSaturationCharm = false
 	allowSpeedCharm = true
 	allowSpeed2Charm = true
 	allowHasteCharm = true
 	allowHaste2Charm = true
 	allowStrengthCharm = true
 	allowStrength2Charm = true
-	allowAbsorptionCharm = true
-	allowAbsorption2Charm = true
+	allowAbsorptionCharm = false
+	allowAbsorption2Charm = false
 	allowGlowingCharm = true
 	allowDolphinCharm = true
 	allowBlindnessCharm = true

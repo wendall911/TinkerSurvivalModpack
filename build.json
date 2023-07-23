@@ -2,7 +2,7 @@
     "packAuthor": "Tinkers' Survival",
     "minecraftVersion": "1.18.2",
     "modLoader": "forge",
-    "modLoaderVersion": "40.1.52",
+    "modLoaderVersion": "40.2.10",
     "includes": [
         "config",
         "defaultconfigs",

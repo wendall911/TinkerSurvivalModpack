@@ -29,4 +29,10 @@
 	minimumStarvationHealth = 0
 	#Can the player get hungry and maybe even starve to death in peaceful mode.
 	peacefulHunger = true
+	#healthAfterDeath
+	#Range: 0 ~ 20
+	healthAfterDeath = 20
+	#hungerAfterDeath
+	#Range: 0 ~ 20
+	hungerAfterDeath = 20
 
