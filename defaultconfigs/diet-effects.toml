@@ -53,10 +53,6 @@
 		operation = "multiply_base"
 		amount = 0.25
 
-	[[effects.status_effects]]
-		name = "minecraft:hunger"
-		power = 3
-
 	[[effects.conditions]]
 		groups = ["sugars"]
 		match = "all"
