@@ -44,7 +44,7 @@ for entityid in monsterEntities {
             <item:immersiveengineering:shader_bag_uncommon> % 0.02,
             <item:immersiveengineering:shader_bag_rare> % 0.02,
             <item:immersiveengineering:blueprint>.withTag({blueprint:"specialBullet"}) % 0.03,
-            <item:tinkersurvival:bandage> % 4.0,
+            <item:survivalistessentials:bandage> % 4.0,
             <item:immersiveengineering:wirecoil_copper> % 0.3,
             <item:immersiveengineering:wirecoil_copper_ins> % 0.2,
             <item:immersiveengineering:wirecoil_redstone> % 0.1,

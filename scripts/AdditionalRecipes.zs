@@ -16,7 +16,7 @@ craftingTable.addShaped("arrow", <item:minecraft:arrow>*4, [
 ]);
 
 craftingTable.addShaped("crude_arrow", <item:minecraft:arrow>*2, [
-    [<item:tinkersurvival:flint_shard>],
+    [<item:survivalistessentials:flint_shard>],
     [<tag:items:forge:rods/wooden>],
     [<tag:items:crafttweaker:arrow_fletching>]
 ]);
@@ -37,7 +37,6 @@ craftingTable.addShaped("slimeball", <item:minecraft:slime_ball>, [
 <tag:items:crafttweaker:cooked_meat>.add(<item:minecraft:cooked_mutton>);
 <tag:items:crafttweaker:cooked_meat>.add(<item:minecraft:cooked_salmon>);
 <tag:items:crafttweaker:cooked_meat>.add(<item:aquaculture:fish_fillet_cooked>);
-<tag:items:crafttweaker:cooked_meat>.add(<item:aquaculture:frog_legs_cooked>);
 <tag:items:crafttweaker:cooked_meat>.add(<item:biomemakeover:cooked_toad>);
 <tag:items:crafttweaker:cooked_meat>.add(<item:biomemakeover:cooked_glowfish>);
 <tag:items:crafttweaker:cooked_meat>.add(<item:betteranimalsplus:turkey_cooked>);

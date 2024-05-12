@@ -1,4 +1,3 @@
-<recipetype:sushigocrafting:cutting_board>.addRecipe("cutting_frog", <item:aquaculture:frog>, "tuna");
 <recipetype:sushigocrafting:cutting_board>.addRecipe("cutting_blackfish", <item:aquaculture:blackfish>, "tuna");
 <recipetype:sushigocrafting:cutting_board>.addRecipe("cutting_pacific_halibut", <item:aquaculture:pacific_halibut>, "tuna");
 <recipetype:sushigocrafting:cutting_board>.addRecipe("cutting_arrau_turtle", <item:aquaculture:arrau_turtle>, "tuna");
@@ -33,3 +32,4 @@
 <recipetype:sushigocrafting:cutting_board>.addRecipe("cutting_fish_fillet_raw", <item:aquaculture:fish_fillet_raw>, "tuna");
 <recipetype:sushigocrafting:cutting_board>.addRecipe("cutting_glowfish", <item:biomemakeover:glowfish>, "tuna");
 <recipetype:sushigocrafting:cutting_board>.addRecipe("cutting_pink_salmon", <item:aquaculture:pink_salmon>, "salmon");
+<recipetype:sushigocrafting:cutting_board>.addRecipe("cutting_tropical_fish", <item:minecraft:tropical_fish>, "tuna");
