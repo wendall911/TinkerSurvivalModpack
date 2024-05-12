@@ -1,6 +1,7 @@
 {
-  "craftable": false,
-  "tier": 1,
-  "sortOrder": 2,
-  "hidden": false
+  "redirect": [
+    {
+      "id": "tconstruct:venombone"
+    }
+  ]
 }

@@ -1,5 +1,10 @@
 {
   "stats": {
-    "tconstruct:extra": {}
+    "tconstruct:bowstring": {},
+    "tconstruct:extra": {},
+    "tconstruct:skull": {
+      "armor": 1,
+      "durability": 200
+    }
   }
 }

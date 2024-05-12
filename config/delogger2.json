@@ -1,7 +1,7 @@
 {
   "dontChangeMe": "RandomString",
   "printWarningMessage": true,
-  "enableDebugLog": false,
+  "printLoggerTypes": false,
   "whitelistLoggersTypes": [
     "DebugFile"
   ],

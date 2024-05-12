@@ -10,6 +10,10 @@
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
 	nightSpeed = 1.0
+	#A reimplementation of 'Serene Seasons Fix' that overrides the fact that Serene Seasons doesn't honor the minecraft clock.
+	#If using this, Serene Seasons config value day_duration is set to 24000
+	#Set to true to override.
+	sereneSeasonsFix = false
 
 	[time.effects]
 		#When applied, this effect syncs the passage of weather with the current speed of time.
@@ -79,7 +83,7 @@
 	#Set to 'false' to force weather to pass naturally. Adds realism when accelerateWeather is enabled.
 	#Note: This setting is ignored if game rule doWeatherCycle is false.
 	clearWeatherOnWake = true
-	#When true, players are allowed to sleep at all times of day in dimensions controlled by Hourglass.
+	#When true, players are allowed to sleep at all times of day in dimensions controlled by Better Days.
 	#Note: Other mods may override this ability.
 	allowDaySleep = false
 	#When true, a clock is displayed in the sleep interface.
@@ -138,7 +142,7 @@
 			#Sets where this message appears.
 			#Allowed Values: SYSTEM, GAME_INFO
 			type = "GAME_INFO"
-			#Sets to whom this message is sent.
+			#Sets to whom this message is sent. 
 			#Allowed Values: ALL, DIMENSION, SLEEPING
 			target = "DIMENSION"
 

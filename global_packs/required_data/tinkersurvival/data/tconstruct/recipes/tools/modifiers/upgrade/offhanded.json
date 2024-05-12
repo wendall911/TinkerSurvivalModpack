@@ -1,5 +1,6 @@
 {
   "type": "tconstruct:modifier",
+  "allow_crystal": true,
   "inputs": [
     {
       "item": "minecraft:dirt"
@@ -11,15 +12,11 @@
       "item": "minecraft:cobblestone"
     }
   ],
+  "level": {
+    "max": 2
+  },
+  "result": "tconstruct:offhanded",
   "tools": {
-    "tag": "tconstruct:modifiable/held"
-  },
-  "slots": {
-    "upgrades": 1
-  },
-  "result": {
-    "name": "tconstruct:offhanded",
-    "level": 1
-  },
-  "max_level": 1
+    "tag": "tconstruct:modifiable/interactable/right"
+  }
 }
