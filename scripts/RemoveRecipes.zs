@@ -9,10 +9,7 @@ val removals = [
     <item:botania:manasteel_hoe>,
     <item:botania:manasteel_axe>,
     <item:botania:manasteel_sword>,
-    <item:botania:manasteel_shears>,
-    <item:mowziesmobs:spear>,
-    <item:mowziesmobs:earthbore_gauntlet>,
-    <item:mowziesmobs:earth_talisman>
+    <item:botania:manasteel_shears>
 ];
 
 for item in removals {
