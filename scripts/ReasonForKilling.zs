@@ -38,7 +38,7 @@ for entityid in monsterEntities {
     val name = entityid.split(":")[1];
 
     entitytype.addPlayerOnlyLootModifier(
-        name + "_tinkersurvival_ct",
+        name + "_tinkersurvival",
         CommonLootModifiers.addAllWithChance(
             <item:immersiveengineering:shader_bag_common> % 0.01,
             <item:immersiveengineering:shader_bag_uncommon> % 0.02,
@@ -84,4 +84,3 @@ for entityid in monsterEntities {
         )
     );
 }
-
