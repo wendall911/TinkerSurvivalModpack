@@ -3,7 +3,7 @@
   "group": "books",
   "ingredients": [
     {
-      "item": "survivalistessentials:modpack_book"
+      "item": "tinkersurvival:modpack_book"
     }
   ],
   "result": {
