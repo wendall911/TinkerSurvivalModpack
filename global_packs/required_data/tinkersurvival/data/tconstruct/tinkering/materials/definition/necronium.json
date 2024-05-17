@@ -15,8 +15,8 @@
       }
     ]
   },
-  "craftable": false,
-  "tier": 1,
+  "craftable": true,
+  "hidden": false,
   "sortOrder": 7,
-  "hidden": false
+  "tier": 1
 }

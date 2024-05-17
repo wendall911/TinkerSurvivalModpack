@@ -1,6 +1,7 @@
 {
-  "craftable": true,
-  "tier": 1,
-  "sortOrder": 20,
-  "hidden": false
+  "redirect": [
+    {
+      "id": "tconstruct:rose_gold"
+    }
+  ]
 }

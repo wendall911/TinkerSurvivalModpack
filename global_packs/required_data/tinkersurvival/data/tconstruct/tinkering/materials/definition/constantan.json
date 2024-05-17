@@ -16,7 +16,7 @@
     ]
   },
   "craftable": false,
-  "tier": 1,
-  "sortOrder": 1,
-  "hidden": false
+  "hidden": false,
+  "sortOrder": 6,
+  "tier": 1
 }
