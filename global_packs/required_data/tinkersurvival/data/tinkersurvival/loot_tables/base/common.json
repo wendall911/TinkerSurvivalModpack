@@ -1,0 +1,272 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Medkit",
+                "color": "light_purple",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:10,Amplifier:4b,Duration:240}]}"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_healing"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Riot Shield",
+                "color": "dark_gray",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Patterns:[{Pattern:\"gru\",Color:9},{Pattern:\"hhb\",Color:8},{Pattern:\"ms\",Color:7},{Pattern:\"bo\",Color:7}],Base:0}}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 5
+                },
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Knockback Stick",
+                "color": "gold",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:knockback": {
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Greed",
+                "color": "gold",
+                "italic": "false",
+                "bold": "true"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:looting": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Propeller Hat",
+                "color": "green",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:feather_falling": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Cactus",
+                "color": "dark_green",
+                "italic": "false",
+                "bold": "true"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:thorns": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Match",
+                "color": "red",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_aspect": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Multiplier",
+                "color": "white",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:piercing": {
+                  "min": 1,
+                  "max": 4
+                },
+                "minecraft:multishot": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mj\u00f6lnir",
+                "color": "yellow",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:smite": {
+                  "min": 2,
+                  "max": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Primitive Chainsaw",
+                "color": "dark_gray",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": {
+                  "min": 3,
+                  "max": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Primitive Mining Drill",
+                "color": "dark_gray",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": {
+                  "min": 3,
+                  "max": 6
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

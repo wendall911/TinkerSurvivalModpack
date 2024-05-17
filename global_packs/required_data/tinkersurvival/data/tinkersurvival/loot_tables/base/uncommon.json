@@ -1,0 +1,179 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "S.W.A.T. Vest",
+                "color": "dark_gray",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:binding_curse": 1,
+                "minecraft:protection": {
+                  "min": 4,
+                  "max": 7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Tough Horse Armor",
+                "color": "white",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Long Fall Boots",
+                "color": "aqua",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:feather_falling": {
+                  "min": 5,
+                  "max": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "S.W.A.T. Pants",
+                "color": "dark_gray",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 4,
+                  "max": 7
+                },
+                "minecraft:binding_curse": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Soul Stepper",
+                "color": "dark_aqua",
+                "italic": "false",
+                "bold": "true"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:soul_speed": {
+                  "min": 4,
+                  "max": 5
+                },
+                "minecraft:unbreaking": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Diving Helmet",
+                "color": "aqua",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:depth_strider": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 2,
+                  "max": 4
+                },
+                "minecraft:aqua_affinity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Bulletproof Vest",
+                "color": "gray",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:projectile_protection": {
+                  "min": 4,
+                  "max": 6
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
