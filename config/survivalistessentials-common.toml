@@ -13,7 +13,7 @@ SLOW_DOWN_SPEED = 0.4
 #Inverts blacklist to be whitelist. This allows for immersion mods/modpacks to only allow tools or armor for specific mods. Default: false
 INVERT_LIST_TO_WHITELIST = true
 #List of mods that tools will become wet noodles. If inverted, acts as a whitelist. Default: [""]
-mods = ["tconstruct", "tinkersurvival", "consecration"]
+mods = ["tconstruct", "tinkersurvival", "consecration", "survivalistessentials"]
 #List of individual tools that will always work. Format tooltype-modid:item Default: [""]
 items = ["shovel-immersiveengineering:drill", "pickaxe-immersiveengineering:drill", "axe-immersiveengineering:buzzsaw", "pickaxe-immersiveengineering:buzzsaw", "weapon-immersiveengineering:revolver", "weapon-immersiveengineering:revolver", "hammer-immersiveengineering:hammer", "wirecutter-immersiveengineering:wirecutter", "shovel-tconstruct:excavator", "weapon-malum:crude_scythe", "weapon-malum:soul_stained_steel_scythe", "weapon-minecraft:trident"]
 #Used to dump log info for Survivalist Essentials Modpack. Ignore.
