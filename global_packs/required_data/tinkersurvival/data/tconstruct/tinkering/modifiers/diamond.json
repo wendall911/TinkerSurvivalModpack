@@ -43,7 +43,7 @@
     {
       "type": "tconstruct:set_stat",
       "stat": "tconstruct:harvest_tier",
-      "value": "minecraft:iron"
+      "value": "minecraft:stone"
     },
     {
       "type": "tconstruct:stat_boost",
