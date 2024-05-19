@@ -570,7 +570,7 @@
 	"No Durability On Cosmetics" = true
 	"Sponges Better" = true
 	"Sign Editing" = true
-	"Simple Harvest" = true
+	"Simple Harvest" = false
 	"Dragon Scales" = true
 	"Shulker Packing" = true
 
