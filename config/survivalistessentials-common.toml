@@ -40,9 +40,9 @@ STARTING_HEALTH_PENALTY = 0.0
 #Range: 0 ~ 4
 GENERIC_DAMAGE = 0
 #List of mods that armor will not be equipable for. If inverted, acts as a whitelist. Default: [""]
-armormods = ["immersiveengineering", "tconstruct"]
+armormods = ["immersiveengineering", "tconstruct", "scuba_gear"]
 #List of individual armor items that will be disabled. If inverted, acts as a whitelist. Format modid:item Default: [""]
-armor = ["tconstruct:piggybackpack"]
+armor = ["biomemakeover:cowboy_hat", "biomemakeover:witch_hat"]
 #List of tags when added to tools or armor will be disabled. If inverted, acts as a whitelist.["blacklist_tools"]
 tag = ["whitelist_tools"]
 
