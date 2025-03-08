@@ -1,4 +1,4 @@
-# MobCaptains v2.1.2 by PuckiSilver
+# MobCaptains v3.1.1 by PuckiSilver
 particle dust 0.7 0 1 1 ~1.0 ~0.1 ~0.0 0 0 0 0 0 force
 particle dust 0.7 0 1 1 ~0.91355 ~0.1 ~0.40674 0 0 0 0 0 force
 particle dust 0.7 0 1 1 ~0.66913 ~0.1 ~0.74314 0 0 0 0 0 force
@@ -44,4 +44,4 @@ particle dust 0.7 0 1 1 ~1.33826 ~0.1 ~-1.48629 0 0 0 0 0 force
 particle dust 0.7 0 1 1 ~1.61803 ~0.1 ~-1.17557 0 0 0 0 0 force
 particle dust 0.7 0 1 1 ~1.82709 ~0.1 ~-0.81347 0 0 0 0 0 force
 particle dust 0.7 0 1 1 ~1.9563 ~0.1 ~-0.41582 0 0 0 0 0 force
-# MobCaptains v2.1.2 by PuckiSilver
+# MobCaptains v3.1.1 by PuckiSilver

@@ -1,12 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "books",
   "ingredients": [
     {
-      "item": "sushigocrafting:seaweed"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:dirt"
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:kelp"
     }
   ],
   "result": {

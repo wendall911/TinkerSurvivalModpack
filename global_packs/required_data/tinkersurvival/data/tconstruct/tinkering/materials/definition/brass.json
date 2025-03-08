@@ -7,16 +7,13 @@
         "prop": "force_integration_materials"
       },
       {
-        "type": "forge:not",
-        "value": {
-          "type": "forge:tag_empty",
-          "tag": "forge:ingots/brass"
-        }
+        "type": "mantle:tag_filled",
+        "tag": "forge:ingots/brass"
       }
     ]
   },
   "craftable": false,
-  "tier": 1,
+  "hidden": false,
   "sortOrder": 9,
-  "hidden": false
+  "tier": 1
 }

@@ -3,16 +3,83 @@
     {
       "rolls": 1,
       "entries": [
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Master Gardener",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": {
+                  "min": 3,
+                  "max": 6
+                },
+                "apothic_enchanting:natures_blessing": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 50,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:elytra",
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Plated Elytra",
-                "color": "dark_gray",
-                "italic": "false"
+                "color": "#ccbdf0",
+                "italic": false
               }
             },
             {
@@ -23,8 +90,20 @@
                   "max": 4
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -32,10 +111,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Immortal",
-                "color": "gold",
-                "italic": "false"
+                "color": "#ff9ee5",
+                "italic": false
               }
             },
             {
@@ -58,8 +138,20 @@
                   "max": 4
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -67,20 +159,33 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Robin's Bow",
-                "color": "dark_purple",
-                "italic": "false"
+                "color": "#49db00",
+                "italic": false
               }
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:mending": 1,
-                "minecraft:infinity": 1
+                "apothic_enchanting:endless_quiver": 1
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 20
         }
       ]
     }

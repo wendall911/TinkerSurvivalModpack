@@ -4,15 +4,148 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 5,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:source_berry_pie",
+          "weight": 150,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Rod of Temptation",
+                "color": "dark_green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "apothic_enchanting:tempting": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 85
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Chainsaw",
+                "color": "dark_gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "apothic_enchanting:chainsaw": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 85
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Mining Drill",
+                "color": "dark_gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "apothic_enchanting:miners_fervor": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 85
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:golden_chestplate",
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "S.W.A.T. Vest",
-                "color": "dark_gray",
-                "italic": "false"
+                "color": "#997932",
+                "italic": false
               }
             },
             {
@@ -24,31 +157,56 @@
                   "max": 7
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 80
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
+          "name": "minecraft:iron_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
-                "text": "Tough Horse Armor",
-                "color": "white",
-                "italic": "false"
+                "text": "Gem Magnet",
+                "color": "#ff0001",
+                "italic": false
               }
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:protection": {
-                  "min": 1,
+                "minecraft:fortune": {
+                  "min": 2,
                   "max": 4
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 70
         },
         {
           "type": "minecraft:item",
@@ -56,10 +214,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Long Fall Boots",
-                "color": "aqua",
-                "italic": "false"
+                "color": "#44d3e3",
+                "italic": false
               }
             },
             {
@@ -70,8 +229,20 @@
                   "max": 6
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 80
         },
         {
           "type": "minecraft:item",
@@ -79,23 +250,36 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "S.W.A.T. Pants",
-                "color": "dark_gray",
-                "italic": "false"
+                "color": "#997932",
+                "italic": false
               }
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
+                "minecraft:binding_curse": 1,
                 "minecraft:protection": {
                   "min": 4,
                   "max": 7
-                },
-                "minecraft:binding_curse": 1
+                }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 80
         },
         {
           "type": "minecraft:item",
@@ -103,11 +287,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Soul Stepper",
-                "color": "dark_aqua",
-                "italic": "false",
-                "bold": "true"
+                "color": "#45b3cc",
+                "italic": false
               }
             },
             {
@@ -119,8 +303,60 @@
                 },
                 "minecraft:unbreaking": 2
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Winter Flippers",
+                "color": "#abedeb",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:frost_walker": {
+                  "min": 1,
+                  "max": 2
+                },
+                "minecraft:depth_strider": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 90
         },
         {
           "type": "minecraft:item",
@@ -128,27 +364,39 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Diving Helmet",
-                "color": "aqua",
-                "italic": "false"
+                "color": "#21ff55",
+                "italic": false
               }
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:depth_strider": {
-                  "min": 1,
-                  "max": 3
-                },
                 "minecraft:respiration": {
                   "min": 2,
                   "max": 4
                 },
-                "minecraft:aqua_affinity": 1
+                "minecraft:depth_strider": {
+                  "min": 1,
+                  "max": 3
+                }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 100
         },
         {
           "type": "minecraft:item",
@@ -156,10 +404,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Bulletproof Vest",
-                "color": "gray",
-                "italic": "false"
+                "color": "#edc266",
+                "italic": false
               }
             },
             {
@@ -170,8 +419,59 @@
                   "max": 6
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Apocalypse",
+                "color": "#d90000",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+            }
+          ],
+          "weight": 90
         }
       ]
     }

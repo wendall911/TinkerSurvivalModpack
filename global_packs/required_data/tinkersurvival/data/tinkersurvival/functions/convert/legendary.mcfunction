@@ -1,4 +1,4 @@
-# MobCaptains v2.1.2 by PuckiSilver
+# MobCaptains v3.1.1 by PuckiSilver
 attribute @s minecraft:generic.max_health modifier add 15213119-0002-0002-0002-000000000002 tinkersurvival.max_health 2.7 multiply
 attribute @s minecraft:generic.armor modifier add 15213119-0002-0002-0002-000000000002 tinkersurvival.armor 15 add
 attribute @s minecraft:generic.movement_speed modifier add 15213119-0002-0002-0002-000000000002 tinkersurvival.movement_speed 0.8 multiply
@@ -12,4 +12,4 @@ execute if score .notify_on_spawn tinkersurvival.config matches 1.. if score .no
 execute if score .beam_on_spawn tinkersurvival.config matches 1 at @s run particle dust 10 10 10 5 ~ ~ ~ 0 200 0 0 300 force
 effect give @s glowing 1000000 0 true
 function tinkersurvival:convert/captain
-# MobCaptains v2.1.2 by PuckiSilver
+# MobCaptains v3.1.1 by PuckiSilver

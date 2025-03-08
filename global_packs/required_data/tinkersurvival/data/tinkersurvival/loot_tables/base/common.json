@@ -4,26 +4,82 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "§cC§6h§er§ao§3m§9a§5t§ci§6c §aS§3h§9e§5a§cr§6s",
+                "color": "rainbow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "apothic_enchanting:chromatic": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 40
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Medkit",
-                "color": "light_purple",
-                "italic": "false"
+                "color": "#ff45f6",
+                "italic": false
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:10,Amplifier:4b,Duration:240}]}"
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:10,Amplifier:4b,Duration:240}]}"
             },
             {
               "function": "minecraft:set_potion",
               "id": "minecraft:strong_healing"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 200
         },
         {
           "type": "minecraft:item",
@@ -31,10 +87,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Riot Shield",
-                "color": "dark_gray",
-                "italic": "false"
+                "color": "#2c348f",
+                "italic": false
               }
             },
             {
@@ -53,8 +110,20 @@
                   "max": 4
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 100
         },
         {
           "type": "minecraft:item",
@@ -62,10 +131,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Knockback Stick",
-                "color": "gold",
-                "italic": "false"
+                "color": "#ff9d00",
+                "italic": false
               }
             },
             {
@@ -76,8 +146,20 @@
                   "max": 4
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 100
         },
         {
           "type": "minecraft:item",
@@ -85,11 +167,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Greed",
-                "color": "gold",
-                "italic": "false",
-                "bold": "true"
+                "color": "#d99307",
+                "italic": false
               }
             },
             {
@@ -100,8 +182,20 @@
                   "max": 4
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 80
         },
         {
           "type": "minecraft:item",
@@ -109,10 +203,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Propeller Hat",
-                "color": "green",
-                "italic": "false"
+                "color": "#00ff00",
+                "italic": false
               }
             },
             {
@@ -123,8 +218,24 @@
                   "max": 4
                 }
               }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:16711680}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 100
         },
         {
           "type": "minecraft:item",
@@ -132,23 +243,35 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Cactus",
-                "color": "dark_green",
-                "italic": "false",
-                "bold": "true"
+                "color": "#30de00",
+                "italic": false
               }
             },
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:thorns": {
-                  "min": 1,
+                  "min": 2,
                   "max": 5
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 100
         },
         {
           "type": "minecraft:item",
@@ -156,10 +279,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Match",
-                "color": "red",
-                "italic": "false"
+                "color": "#c23511",
+                "italic": false
               }
             },
             {
@@ -170,8 +294,20 @@
                   "max": 4
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 100
         },
         {
           "type": "minecraft:item",
@@ -179,10 +315,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Multiplier",
-                "color": "white",
-                "italic": "false"
+                "color": "#96ffcb",
+                "italic": false
               }
             },
             {
@@ -194,8 +331,20 @@
                 },
                 "minecraft:multishot": 1
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 90
         },
         {
           "type": "minecraft:item",
@@ -203,10 +352,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Mj\u00f6lnir",
-                "color": "yellow",
-                "italic": "false"
+                "color": "#fff291",
+                "italic": false
               }
             },
             {
@@ -217,8 +367,20 @@
                   "max": 5
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 90
         },
         {
           "type": "minecraft:item",
@@ -226,10 +388,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Primitive Chainsaw",
-                "color": "dark_gray",
-                "italic": "false"
+                "color": "#383130",
+                "italic": false
               }
             },
             {
@@ -240,8 +403,20 @@
                   "max": 6
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 90
         },
         {
           "type": "minecraft:item",
@@ -249,10 +424,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Primitive Mining Drill",
-                "color": "dark_gray",
-                "italic": "false"
+                "color": "#756e6c",
+                "italic": false
               }
             },
             {
@@ -263,8 +439,20 @@
                   "max": 6
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 90
         }
       ]
     }

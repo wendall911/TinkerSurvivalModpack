@@ -3,16 +3,164 @@
     {
       "rolls": 1,
       "entries": [
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 15,
+                "max": 25
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 80,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Wooly Bully",
+                "color": "light_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "apothic_enchanting:worker_exploitation": 1,
+                "apothic_enchanting:growth_serum": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Basher",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "apothic_enchanting:shield_bash": {
+                  "min": 1,
+                  "max": 4
+                },
+                "apothic_enchanting:reflective_defenses": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Base:4,Patterns:[{Pattern:\"pig\",Color:1},{Pattern:\"bo\",Color:4}]}}"
+            }
+          ],
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Machine Gun",
+                "color": "dark_red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "apothic_enchanting:crescendo_of_bolts": {
+                  "min": 2,
+                  "max": 4
+                },
+                "minecraft:piercing": {
+                  "min": 3,
+                  "max": 5
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 30
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:trident",
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Ripper",
-                "color": "dark_aqua",
-                "italic": "false"
+                "color": "#470854",
+                "italic": false
               }
             },
             {
@@ -23,25 +171,33 @@
                   "max": 5
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying",
           "functions": [
             {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:generic.luck",
-                  "name": "tinkersurvival.lucky_charm",
-                  "amount": 1,
-                  "operation": "addition",
-                  "id": "42600878-6e02-419a-97b4-695e8e4e3e14",
-                  "slot": "mainhand"
-                }
-              ]
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Lucky Charm",
+                "color": "#81d600",
+                "italic": false
+              }
             },
             {
               "function": "minecraft:set_enchantments",
@@ -50,14 +206,68 @@
               }
             },
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Lucky Charm",
-                "color": "dark_green",
-                "italic": "false"
-              }
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "ps-mob.lucky_charm",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "id": "42600878-6e02-419a-97b4-695e8e4e3e14",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Reaper's Scythe",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 3,
+                  "max": 6
+                },
+                "minecraft:vanishing_curse": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "weight": 70
         },
         {
           "type": "minecraft:item",
@@ -65,10 +275,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Poseidon's Trident",
-                "color": "dark_aqua",
-                "italic": "false"
+                "color": "#006653",
+                "italic": false
               }
             },
             {
@@ -77,10 +288,26 @@
                 "minecraft:sharpness": {
                   "min": 2,
                   "max": 5
+                },
+                "minecraft:loyalty": {
+                  "min": 1,
+                  "max": 3
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -88,10 +315,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "text": "Cornucopia",
-                "color": "gold",
-                "italic": "false"
+                "color": "#d4a715",
+                "italic": false
               }
             },
             {
@@ -99,11 +327,27 @@
               "enchantments": {
                 "minecraft:looting": {
                   "min": 1,
-                  "max": 3
+                  "max": 4
+                },
+                "minecraft:punch": {
+                  "min": 1,
+                  "max": 2
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -111,10 +355,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
-                "text": "YOLO",
-                "color": "dark_red",
-                "italic": "false"
+                "text": "Y.O.L.T.",
+                "color": "#960019",
+                "italic": false
               }
             },
             {
@@ -122,8 +367,20 @@
               "enchantments": {
                 "minecraft:vanishing_curse": 1
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Tinkers' Survival",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          ],
+          "weight": 45
         }
       ]
     }
